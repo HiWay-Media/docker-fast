@@ -12,7 +12,7 @@ ADD . /src
 WORKDIR /src
 RUN npm install
 RUN npm run build
-RUN npm run build:ui
+#RUN npm run build:ui
 
 FROM node:16-slim
 
